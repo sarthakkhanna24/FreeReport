@@ -36,6 +36,7 @@ public class ViewStudent extends JFrame {
 			row++;
 		}
 		String columnNames[]={"Rollno","Name","Email","Course","Fee","Paid","Due","Address","City","State","Country","Contact No"};
+		String columnNames2[]={"Rollno","Name","Email","Course","Fee","Paid"};
 		
 		JTable jt=new JTable(data,columnNames);
 		JScrollPane sp=new JScrollPane(jt);
