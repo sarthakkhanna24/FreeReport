@@ -54,7 +54,7 @@ public class AccountantDao {
 			while(rs.next()){
 				Accountant a=new Accountant();
 				a.setId(rs.getInt(1));
-				a.setName(rs.getString(2));
+				a.setName(rs.getString(5));
 				a.setPassword(rs.getString(3));
 				a.setEmail(rs.getString(4));
 				a.setContactno(rs.getString(5));
